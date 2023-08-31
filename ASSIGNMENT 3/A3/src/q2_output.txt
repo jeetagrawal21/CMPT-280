@@ -1,0 +1,39 @@
+"/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home/bin/java" "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52215:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/jeetagrawal/Desktop/U OF S/WINTER 2020/CMPT 280/ASSIGNMENTS/ASSIGNMENT 3/A3/out/production/A3" SkillTree
+
+1: Walker, Cost: 1
+     2: Runner, Cost: 2
+          3: Sprinter, Cost: 7
+          3: Back-Runner, Cost: 10
+     2: Jumper, Cost: 2
+          3: Climber, Cost: 10
+          3: LongJumper, Cost: 10
+          3: HighJumper, Cost: 10
+          3: Back-Flipper, Cost: 15
+     2: Back-Walker, Cost: 4
+
+Dependencies for Climber :
+
+Walker, Cost: 1, Jumper, Cost: 2, Climber, Cost: 10, 
+Dependencies for Back-Flipper :
+
+Walker, Cost: 1, Jumper, Cost: 2, Back-Flipper, Cost: 15, 
+Dependencies for Back-Walker :
+
+Walker, Cost: 1, Back-Walker, Cost: 4, 
+
+Skill not found in the tree.
+Skill not found in the tree.
+Total Cost for Climber :
+
+13
+Total Cost for Walker :
+
+1
+Total Cost for LongJumper :
+
+13
+
+Skill not found in the tree.
+Skill not found in the tree.
+
+Process finished with exit code 0
