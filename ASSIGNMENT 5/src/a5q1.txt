@@ -1,0 +1,30 @@
+NAME        :       JEET AGRAWAL
+NSID        :       jea316
+STUDENT ID  :       11269096
+
+Q1)
+
+Filename Avg.           Queries for hashQuestLog Avg.       Queries for treeQuestLog
+quests4.csv                      1.25                                2.0
+quests16.csv                     1.125                               4.0
+quests250.csv                    1.232                               13.34
+quests1000.csv                   2.148                               18.08
+quests100000.csv                 1.45367                             30.8778
+
+Q2)
+
+O(1) because as wee see the above table shows that the time complexity is almost constant.
+
+Q3)
+
+O(log(n)) because as the item increases the time complexity increases and as it is a tree the time complexity is logarithmic.
+
+Q4)
+
+I would use treeQuest log because the entries are already sorted in the tree while the hash log calls the sort algorithm which has O(nlog(n)).
+
+Q5)
+
+I would go with the hash log because hash would take less time as the big-O is O(1).
+
+THE END.
